@@ -35,8 +35,7 @@ jobs:
         curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe -o cloudflared.exe
         
         REM Install service ONLY (auto-starts - NO net start)
-        cloudflared.exe service install eyJhIjoiY2U5MWFiYmQyYWU3YjhlZjQxMmU0YWQxODJmYzUxYzciLCJ0IjoiZjA3ODVlYTgtY2FhOS00OTYzLWE0N2YtMzY4ZDY3MzU1MzdiIiwicyI6Ik5tWmlPVGMxWkdNdE9Ua3hOUzAwTXpObExUZ3pZMll0WlRneVpqaG1aREpsWW1VNSJ9
-        
+        cloudflared.exe service install  eyJhIjoiY2U5MWFiYmQyYWU3YjhlZjQxMmU0YWQxODJmYzUxYzciLCJ0IjoiNzVkZDIyNjItZGZkYS00ZDhhLTg1NWMtMzk2YmM3MzZmZjVjIiwicyI6Ik1UVmtOREExWkdRdE0yTTBOaTAwT0RVNExXRTNNakF0TWpBeVpXTTBaV015WW1abCJ9
         REM Service auto-runs after install
         sc query Cloudflared
 
